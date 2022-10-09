@@ -1,6 +1,6 @@
 # DAX-prediction
 
-School project - French engineering school Télécom SudParis | Institut Polytechnique de Paris
+School project - French engineering school Télécom SudParis | Institut Polytechnique de Paris <br />
 The data we worked on was confidential, hence I had to remove it from the project before posting it on GitHub. Thus, there is but the code on this repo. 
 
 The idea of this project was to analyse data deom the DAX market and try to find some ways to take advantage of it to better the trading results of a trader we were working with. 
