@@ -8,7 +8,7 @@ After analysis, we decided to try and predict the delta of the following day on 
 The delta of a day is the difference between the highest trading price registered during the day, and the lowest. <br />
 Basically, this could indicate some trends of the day to the trader, giving him some insights to better respond to some situations throughout the day. <br />
 
-We created 5 classes for the delta, calculated with a Z-score (class 0 representing the smallest deltas, and class 4 the highest). <br />
+We created 5 classes for the delta, calculated with a Z-score (class -2 representing the smallest deltas, and class +2 the highest). <br />
 Through our analysis, we discovered that our trader was doing very good on days where the delta was in the classes 1 and 2, ok in the class 0 and was losing more trades that winning in the classes -1 and -2. 
 
 To predict the delta, we tried to create and train a neural network model. However, the neural network had to be rather complex thus requiring to train a high number of hyperparameters. <br />
